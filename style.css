@@ -1,0 +1,194 @@
+/* ================= GENERAL ================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ================= NAVBAR ================= */
+.navbar{
+    background: #E91E63;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-nav{
+    background: white;
+    color: #E91E63 !important;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+
+/* MOBILE */
+@media(max-width:768px){
+    .menu-toggle{
+        display: flex;
+    }
+
+   
+
+    
+}
+
+/* ================= HERO ================= */
+.hero{
+    padding: 80px 0;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-text h1{
+    font-size: 40px;
+}
+
+.hero-text span{
+    color: #E91E63;
+}
+
+.hero-buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn1{
+    background: #E91E63;
+    color: white;
+}
+
+.btn2{
+    border: 2px solid #E91E63;
+    color: #E91E63;
+}
+
+.hero-image img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* ================= ABOUT ================= */
+.about{
+    padding: 80px 0;
+    background: #fff0f6;
+}
+
+.about h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ================= FORMATIONS ================= */
+.formations{
+    padding: 80px 0;
+}
+
+.formations .card{
+    background: #fff0f6;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* ================= COMPETENCES ================= */
+.competences{
+    padding: 80px 0;
+    background: #fff0f6;
+}
+
+.skills-list{
+    list-style: none;
+}
+
+.skills-list li{
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* ================= EXPERIENCE ================= */
+.experience{
+    padding: 80px 0;
+}
+
+.experience-card{
+    background: #fff0f6;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #E91E63;
+    border-radius: 10px;
+}
+
+
+/* ================= FOOTER ================= */
+.footer{
+    background: #E91E63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media(max-width:768px){
+    .hero-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
